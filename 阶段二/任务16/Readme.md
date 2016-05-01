@@ -1,17 +1,19 @@
+ceshi
 任务目的
 
-在上一任务基础上继续JavaScript的体验
-深入学习JavaScript的事件机制及DOM操作
-学习事件代理机制
-学习简单的表单验证功能
-学习外部加载JavaScript文件
+- 在上一任务基础上继续JavaScript的体验
+- 深入学习JavaScript的事件机制及DOM操作
+- 学习事件代理机制
+- 学习简单的表单验证功能
+- 学习外部加载JavaScript文件
+
 任务描述
 
-参考以下示例代码，用户输入城市名称和空气质量指数后，点击“确认添加”按钮后，就会将用户的输入在进行验证后，添加到下面的表格中，新增一行进行显示
-用户输入的城市名必须为中英文字符，空气质量指数必须为整数
-用户输入的城市名字和空气质量指数需要进行前后去空格及空字符处理（trim）
-用户输入不合规格时，需要给出提示（允许用alert，也可以自行定义提示方式）
-用户可以点击表格列中的“删除”按钮，删掉那一行的数据
+- 参考以下示例代码，用户输入城市名称和空气质量指数后，点击“确认添加”按钮后，就会将用户的输入在进行验证后，添加到下面的表格中，新增一行进行显示
+- 用户输入的城市名必须为中英文字符，空气质量指数必须为整数
+- 用户输入的城市名字和空气质量指数需要进行前后去空格及空字符处理（trim）
+- 用户输入不合规格时，需要给出提示（允许用alert，也可以自行定义提示方式）
+- 用户可以点击表格列中的“删除”按钮，删掉那一行的数据
 
 task.html
 
@@ -122,10 +124,10 @@ init();
 相互讨论，最后合成一份组内最佳代码进行提交
 在线学习参考资料
 
-[JavaScript入门篇](http://www.imooc.com/view/36)
-[MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+- [JavaScript入门篇](http://www.imooc.com/view/36)
+- [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 
-[one](https://github.com/nicolaszs/Baidu-ife)
-[two](https://github.com/menhal/menhal.github.io/tree/master/tasks/stage2/task16/menghao)
-[three](https://github.com/soulclearm/Learn_front_end/blob/dev/public/second/task16.html)
+- [one](https://github.com/nicolaszs/Baidu-ife)
+- [two](https://github.com/menhal/menhal.github.io/tree/master/tasks/stage2/task16/menghao)
+- [three](https://github.com/soulclearm/Learn_front_end/blob/dev/public/second/task16.html)
 
