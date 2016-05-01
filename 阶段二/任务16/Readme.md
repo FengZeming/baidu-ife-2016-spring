@@ -1,5 +1,5 @@
-ceshi
-任务目的
+
+### 任务目的
 
 - 在上一任务基础上继续JavaScript的体验
 - 深入学习JavaScript的事件机制及DOM操作
@@ -7,7 +7,7 @@ ceshi
 - 学习简单的表单验证功能
 - 学习外部加载JavaScript文件
 
-任务描述
+###  任务描述
 
 - 参考以下示例代码，用户输入城市名称和空气质量指数后，点击“确认添加”按钮后，就会将用户的输入在进行验证后，添加到下面的表格中，新增一行进行显示
 - 用户输入的城市名必须为中英文字符，空气质量指数必须为整数
@@ -108,25 +108,28 @@ init();
 
 ```
 
-任务注意事项
+###  任务注意事项
 
-实现简单功能的同时，请仔细学习JavaScript基本语法、事件、DOM相关的知识
-请注意代码风格的整齐、优雅
-代码中含有必要的注释
-验证输入逻辑可以在失去焦点时判断，也可以在点击按钮时判断
-建议不使用任何第三方库、框架
-示例代码仅为示例，可以直接使用，也可以完全自己重写
-任务协作建议
+- 实现简单功能的同时，请仔细学习JavaScript基本语法、事件、DOM相关的知识
+- 请注意代码风格的整齐、优雅
+- 代码中含有必要的注释
+- 验证输入逻辑可以在失去焦点时判断，也可以在点击按钮时判断
+- 建议不使用任何第三方库、框架
+- 示例代码仅为示例，可以直接使用，也可以完全自己重写
+
+### 任务协作建议
 
 团队集中讨论，明确题目要求，保证队伍各自对题目要求认知一致
 各自完成任务实践
 交叉互相Review其他人的代码，建议每个人至少看一个同组队友的代码
 相互讨论，最后合成一份组内最佳代码进行提交
-在线学习参考资料
+
+### 在线学习参考资料
 
 - [JavaScript入门篇](http://www.imooc.com/view/36)
 - [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
 
+### 排名
 - [one](https://github.com/nicolaszs/Baidu-ife)
 - [two](https://github.com/menhal/menhal.github.io/tree/master/tasks/stage2/task16/menghao)
 - [three](https://github.com/soulclearm/Learn_front_end/blob/dev/public/second/task16.html)
