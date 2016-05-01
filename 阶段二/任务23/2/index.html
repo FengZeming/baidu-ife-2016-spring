@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务二十三：JavaScript和树（二）</title>
+    <style>
+        p, h1, h3, .container, #btnGroup {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .container {
+            height: 200px;
+        }
+
+        .box {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #000000;
+            margin: 5px;
+            padding: 5px;
+            width: 80%;
+            height: 80%;
+        }
+    </style>
+</head>
+<body>
+<h1>任务二十三：JavaScript和树（二）</h1>
+<h3><a href="http://ife.baidu.com/task/detail?taskId=23">任务说明</a></h3>
+<div id="btnGroup">
+    <button id="DF">深度优先遍历</button>
+    <button id="BF">广度优先遍历</button>
+    <input placeholder="请输入搜索的关键词" id="searchKey">
+    <button id="search">开始搜索</button>
+
+</div>
+<p>注意:搜索默认是广度优先遍历</p>
+<div class="container" id="container">
+</div>
+
+<script src="task.js"></script>
+</body>
+</html>

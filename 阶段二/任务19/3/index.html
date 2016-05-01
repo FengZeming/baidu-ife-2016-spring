@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="https://github.com/Scimanyd/baidu-ife-study">
+		<title>
+			任务十九：基础JavaScript练习（二）
+		</title>
+		<style type="text/css">
+			fieldset{
+				border-radius: 4px;
+				width: 636px;
+			}
+			input{
+				border-radius: 4px;
+				outline: none;
+				padding: 0 1em; 
+				height: 25px;
+			}
+			.delete{
+				background-color: #be613e;
+				color: #fff;
+			}
+			.chart{
+				background-color: #026cca;
+				color: #fff;
+			}
+			.btn{
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+		<fieldset>
+		<legend>表单输入</legend>      
+				<input type="text" id="input_word" placeholder="请输入10-100的数">
+				<input type="button" id="insert-left" value="左侧入" class="btn"> 
+				<input type="button" id="insert-right" value="右侧入" class="btn"> 
+				&nbsp;
+				<input type="button" id="delete-left" value="左侧出" class="btn delete"> 
+				<input type="button" id="delete-right" value="右侧出" class="btn delete">
+				&nbsp;
+				<input type="button" id="sort-aqi-data" value="排序" class="btn ">
+		</fieldset>
+			<div id="api-chart">
+			hack:<br>111<br>333<br>666<br>999<br>000<br>inut hack and immediately generating data
+			</div>
+			<div id="api-display">
+			</div>
+		</div>
+		<script type="text/javascript" src="task.js"></script>
+	</body>
+</html>

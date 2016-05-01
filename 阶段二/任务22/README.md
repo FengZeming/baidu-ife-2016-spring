@@ -1,4 +1,4 @@
-任务十八：基础JavaScript练习（一）
+任务二十二：JavaScript和树（一）
 ===
 **面向人群：** JavaScript初学者
 
@@ -16,27 +16,23 @@
 
 任务目的
 ---
-* 学习与实践JavaScript的基本语法、语言特性
-* 初步了解JavaScript的事件是什么
-* 初步了解JavaScript中的DOM是什么
+* 熟练JavaScript
+* 学习树这种数据结构的基本知识
 
 任务描述
 ---
-* [如图](http://7xrp04.com1.z0.glb.clouddn.com/task_2_18_1.jpg)，模拟一个队列，队列的每个元素是一个数字，初始队列为空
-* 有一个input输入框，以及4个操作按钮
-  * 点击"左侧入"，将input中输入的数字从左侧插入队列中；
-  * 点击"右侧入"，将input中输入的数字从右侧插入队列中；
-  * 点击"左侧出"，读取并删除队列左侧第一个元素，并弹窗显示元素中数值；
-  * 点击"右侧出"，读取并删除队列又侧第一个元素，并弹窗显示元素中数值；
-* 点击队列中任何一个元素，则该元素会被从队列中删除
+* [参考示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_2_22_1.jpg)，在页面中展现一颗二叉树的结构
+* 提供一个按钮，显示开始遍历，点击后，以动画的形式呈现遍历的过程
+* 二叉树的遍历算法和方式自定，前序中序后序皆可，但推荐可以提供多种算法的展示（增加多个按钮，每个按钮对应不同的算法）
+* 当前被遍历到的节点做一个特殊显示（比如不同的颜色）
+* 每隔一段时间（500ms，1s等时间自定）再遍历下一个节点
 
 任务注意事项
 ---
+* 如果按照示例图中展示树，可以使用flexbox布局
 * 实现简单功能的同时，请仔细学习JavaScript基本语法、事件、DOM相关的知识
 * 请注意代码风格的整齐、优雅
 * 代码中含有必要的注释
-* 示例图仅为参考，不需要完全一致
-* 需要考虑数字输入的合法性
 * 建议不使用任何第三方库、框架
 
 任务协作建议
@@ -50,13 +46,18 @@
 ---
 * [JavaScript入门篇](http://www.imooc.com/view/36)
 * [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+* [js数据结构和算法 二叉树](https://segmentfault.com/a/1190000000740261)
+* [Data Structures With JavaScript: Tree](http://code.tutsplus.com/articles/data-structures-with-javascript-tree--cms-23393)
+* [Computer science in JavaScript: Binary search tree](https://www.nczonline.net/blog/2009/06/09/computer-science-in-javascript-binary-search-tree-part-1/)
 
 任务链接
 ---
-http://ife.baidu.com/task/detail?taskId=18
+http://ife.baidu.com/task/detail?taskId=22
+
+
 
 ### 排名
-- [one](https://github.com/Five-African/task-stage2-final-submission/tree/gh-pages/task18)
-- [two](https://github.com/hellozts4120/IFE-2016/tree/master/task2/serial2/Project18)
-- [three](https://github.com/zp1996/ife-2016/blob/master/task_2_18)
+- [one](https://github.com/Phoebe-Perry/ife_baidu_2016/tree/gh-pages/second_phase/ife-baidu_task_22)
+- [two](https://github.com/soulclearm/Learn_front_end/blob/dev/public/second/task22.html)
+- [three](https://github.com/hunnble/ife2016spring/blob/gh-pages/stage2/js/task22.js)
  

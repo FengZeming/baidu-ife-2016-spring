@@ -1,6 +1,6 @@
-任务十八：基础JavaScript练习（一）
+任务二十九：表单（一）单个表单项的检验
 ===
-**面向人群：** JavaScript初学者
+**面向人群：** 初学者
 
 **难度：** 简单
 
@@ -16,28 +16,24 @@
 
 任务目的
 ---
-* 学习与实践JavaScript的基本语法、语言特性
-* 初步了解JavaScript的事件是什么
-* 初步了解JavaScript中的DOM是什么
+* 加强对JavaScript的掌握
+* 熟悉常用表单处理逻辑
 
 任务描述
 ---
-* [如图](http://7xrp04.com1.z0.glb.clouddn.com/task_2_18_1.jpg)，模拟一个队列，队列的每个元素是一个数字，初始队列为空
-* 有一个input输入框，以及4个操作按钮
-  * 点击"左侧入"，将input中输入的数字从左侧插入队列中；
-  * 点击"右侧入"，将input中输入的数字从右侧插入队列中；
-  * 点击"左侧出"，读取并删除队列左侧第一个元素，并弹窗显示元素中数值；
-  * 点击"右侧出"，读取并删除队列又侧第一个元素，并弹窗显示元素中数值；
-* 点击队列中任何一个元素，则该元素会被从队列中删除
+* 如[示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_2_29_1.jpg)中所示，在页面中实现一个输入框与按钮，要求点击验证按钮后，对输入框中内容进行格式校验，并在其下方显示校验结果
+* 校验规则：
+  * 1.字符数为4~16位
+  * 2.每个英文字母、数字、英文符号长度为1
+  * 3.每个汉字，中文符号长度为2
 
 任务注意事项
 ---
-* 实现简单功能的同时，请仔细学习JavaScript基本语法、事件、DOM相关的知识
+* 要求功能实现与任务描述中完全一致
+* 示例图仅为参考，样式不需要完全实现一致
 * 请注意代码风格的整齐、优雅
 * 代码中含有必要的注释
-* 示例图仅为参考，不需要完全一致
-* 需要考虑数字输入的合法性
-* 建议不使用任何第三方库、框架
+* 不允许借助任何第三方组件库实现
 
 任务协作建议
 ---
@@ -48,15 +44,12 @@
 
 在线学习参考资料
 ---
-* [JavaScript入门篇](http://www.imooc.com/view/36)
-* [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+* [Web相关名词通俗解释](https://www.zhihu.com/question/22689579)
+* [MDN HTML入门](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Introduction)
+* [慕课HTML+CSS基础教程视频](http://www.imooc.com/learn/9)
+* [JavaScript 表单验证](http://www.w3school.com.cn/js/js_form_validation.asp)
+* [HTML表单指南](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/Forms)
 
 任务链接
 ---
-http://ife.baidu.com/task/detail?taskId=18
-
-### 排名
-- [one](https://github.com/Five-African/task-stage2-final-submission/tree/gh-pages/task18)
-- [two](https://github.com/hellozts4120/IFE-2016/tree/master/task2/serial2/Project18)
-- [three](https://github.com/zp1996/ife-2016/blob/master/task_2_18)
- 
+http://ife.baidu.com/task/detail?taskId=29
